@@ -1,5 +1,6 @@
 from django.urls import path
 from BurgerApi.views import UserProfileViewset, OrderViewset
+""jwt setup from simple jwt sebsite""
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
